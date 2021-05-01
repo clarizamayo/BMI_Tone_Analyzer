@@ -21,3 +21,5 @@ for col in columns:
   plt.subplot()
   df[f"response+{col}"].value_counts().plot.pie(figsize=(15,10))
   st.pyplot()
+
+st.balloons()
