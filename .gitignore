@@ -2,15 +2,11 @@
 .DS_Store
 
 # Environments
-.env
-.venv
-env/
-venv/
-ENV/
+**/env/
 
 # Python
 *.pyc
-__pycache__/
+**/__pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints
