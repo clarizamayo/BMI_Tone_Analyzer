@@ -16,7 +16,7 @@ columns = ["Please inform us of how we could make the aforementioned topic more 
         "Additional comments and/or notes:",
         "Is there a fellow or TKH staff member you would like to shine a light on this week? If so, who are they and why? (you can also choose yourself if applicable)"]
 
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 for col in columns:
   plt.subplot()
   df[f"response+{col}"].value_counts().plot.pie(figsize=(15,10))
