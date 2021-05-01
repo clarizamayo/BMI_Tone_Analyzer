@@ -27,8 +27,7 @@ This module requires the following libraries:
 
 | Library | Description |
 | --- | --- |
-| [Streamlit](https://streamlit.io/) | Streamlit turns data scripts into shareable web apps in minutes.
-All in Python. All for free. No front‑end experience required. |
+| [Streamlit](https://streamlit.io/) | Streamlit turns data scripts into shareable web apps in minutes. All in Python. All for free. No front‑end experience required. |
 | [Pandas](https://pandas.pydata.org/docs/) | Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. |
 | [MatplotLib](https://matplotlib.org/) | Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. |
 | [Numpy](https://numpy.org/devdocs/docs/howto_document.html) | NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more. |
@@ -46,7 +45,7 @@ INSTALLATION
 RUNNING THE WEBSITE LOCALLY
 ---------------------------
 
-To run the website- use the executive file by running the following code in your shell:
+To run the website- run the following code in your shell:
  ```python
 
 streamlit run app.py
